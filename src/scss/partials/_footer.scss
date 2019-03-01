@@ -1,0 +1,111 @@
+.footer {
+  background-color: $footer_backgroudcolor;
+
+  &__up {
+    text-align: center;
+    margin-bottom: 80px;
+
+    &--heading {
+      color: #fff;
+      font-family: $fonts_secondary;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.39px;
+      margin-top: 93px;
+      margin-bottom: 38px;
+    }
+
+    &--text1,
+    &--text2 {
+      color: #fff;
+      font-family: $fonts_primary;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.23px;
+      line-height: 27px;
+    }
+
+    &--text1 {
+      color: #68c400;
+    }
+
+    &--text2 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__down {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &--heading {
+      color: #fff;
+      font-family: $fonts_secondary;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.39px;
+      margin-bottom: 36px;
+    }
+
+    &--line {
+      border: 2px solid #222;
+      opacity: 0.5;
+      height: 0;
+      width: 340px;
+      margin-bottom: 38px;
+    }
+
+    &--text1,
+    &--text2 {
+      display: inline;
+      color: #fff;
+      font-family: $fonts_primary;
+      font-size: 20px;
+      letter-spacing: 0.26px;
+    }
+
+    &--text1 {
+      font-weight: 300;
+    }
+
+    &--text2 {
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.social_media {
+  vertical-align: top;
+  margin-bottom: 69px;
+
+  .facebook,
+  .twitter {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    vertical-align: top;
+  }
+
+  .facebook {
+    border: 3px solid #4144bc;
+    padding-top: 7px;
+    margin-right: 20px;
+  }
+
+  .twitter {
+    border: 3px solid #0099ff;
+    padding-top: 12px;
+  }
+}
+
+.makowski__logo {
+  width: 134px;
+  height: 84px;
+  margin-bottom: 28px;
+}

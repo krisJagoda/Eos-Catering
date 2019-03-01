@@ -1,0 +1,123 @@
+.offer {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    color: #343434;
+    font-family: $fonts_secondary;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 35px;
+    margin-bottom: 39px;
+  }
+
+  &__text {
+    width: 340px;
+    color: #565757;
+    font-family: $fonts_secondary;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.23px;
+    line-height: 27px;
+    margin-bottom: 148px;
+  }
+
+  &__element {
+    width: 340px;
+    height: 165px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 322px;
+    height: 147px;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+
+  &__coffee {
+    background-image: url("../images/coffee.png");
+  }
+
+  &__canapes {
+    background-image: url("../images/canapes.png");
+  }
+
+  &__lunch {
+    background-image: url("../images/lunch.png");
+  }
+
+  &__dinner {
+    background-image: url("../images/dinner.png");
+    margin-bottom: 148px;
+  }
+
+  &__communion {
+    background-image: url("../images/communion.png");
+  }
+  &__family {
+    background-image: url("../images/family.png");
+  }
+}
+
+.business_offer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    color: #343434;
+    font-family: $fonts_secondary;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 35px;
+    margin-bottom: 39px;
+  }
+}
+
+.offers__text {
+  color: #343434;
+  font-family: $fonts_primary;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 272px;
+  height: 87px;
+  border-radius: 12px;
+  padding-top: 20px;
+}
+
+.individual_offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  &__heading {
+    color: #343434;
+    font-family: $fonts_secondary;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 35px;
+    margin-bottom: 39px;
+  }
+}

@@ -1,0 +1,51 @@
+.header {
+  background-image: radial-gradient(1344px 672px at 50% 0%, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/header_backgroud.jpg");
+  opacity: 0.75;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__round {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 54px;
+    background-color: #fff;
+    width: 100%;
+  }
+}
+
+.hamburger__menu {
+  margin-top: 40px;
+  margin-left: 22px;
+  margin-bottom: 97px;
+  display: inline-block;
+
+  &--element {
+    display: block;
+    margin-bottom: 6px;
+    background-color: #fff;
+    width: 35px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+  }
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  &--element {
+    width: 240px;
+    height: 230px;
+  }
+}
+
+.seemenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}

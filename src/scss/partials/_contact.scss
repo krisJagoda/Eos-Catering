@@ -1,0 +1,102 @@
+.contact {
+  background-color: #67c200;
+  margin-top: -26px;
+
+  &__round {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 54px;
+    background-color: #030310;
+    width: 100%;
+  }
+
+  &__heading {
+    margin-top: 176px;
+    color: #fff;
+    font-family: $fonts_secondary;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+
+  &__text {
+    color: #fff;
+    font-family: $fonts_primary;
+    font-size: 18px;
+    letter-spacing: 0.23px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 79px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 152px;
+
+    &--input {
+      display: block;
+      width: 340px;
+      height: 68px;
+      border-radius: 5px;
+      background-color: #fff;
+      border: none;
+      margin-bottom: 20px;
+      padding-left: 35px;
+      font-size: 16px;
+
+      &::placeholder {
+        opacity: 0.3;
+        color: #000;
+        font-family: $fonts_primary;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.29px;
+        line-height: 28px;
+      }
+    }
+
+    &--textarea {
+      width: 340px;
+      height: 204px;
+      border-radius: 5px;
+      background-color: #fff;
+      border: none;
+      padding-left: 35px;
+      padding-top: 21px;
+      resize: none;
+      font-size: 16px;
+      margin-bottom: 20px;
+
+      &::placeholder {
+        opacity: 0.3;
+        color: #000;
+        font-family: $fonts_primary;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.29px;
+        line-height: 28px;
+      }
+    }
+
+    &--button {
+      background-color: #6dc708;
+      width: 340px;
+      height: 68px;
+      border-radius: 5px;
+      border: 4px solid #fafafa;
+      color: #ffffff;
+      font-family: $fonts_primary;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.36px;
+      line-height: 28px;
+    }
+  }
+}
