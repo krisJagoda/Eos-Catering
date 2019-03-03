@@ -1,36 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <title>Eos Catering</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Professional website of the EOS catering">
-  <meta name="keywords" content="EOS catering Wrocław">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
-</head>
+<?php include ("head.php") ?>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="hamburger__menu">
-        <span class="hamburger__menu--element"></span>
-        <span class="hamburger__menu--element"></span>
-        <span class="hamburger__menu--element"></span>
-      </div>
-      <div class="header__logo">
-        <img src="images/headerlogo.svg" alt="eos catering logo" class="header__logo--element" />
-      </div>
-
-    </div>
-    <div class="header__round">
-
-    </div>
-    <div class="arrow">
-      <img src="images/arrow.png" alt="arrow" class="arrow">
-    </div>
-
-  </header>
+  <?php
+  include ("header_offer.php")
+  ?>
 
   <section class="offer">
     <h2 class="offer__heading">EOS Catering</h2>
@@ -59,7 +32,7 @@
 
     <a href="" class="offer__element offer__lunch">
       <div class="offer__inside">
-        <div class="offers__text">
+        <div class="offers__text ">
           Lunch, szkolenia
         </div>
       </div>
@@ -95,60 +68,9 @@
 
   </section>
 
-  <footer class="footer">
-
-    <div class="container">
-
-      <section class="footer__up">
-        <h3 class="footer__up--heading">EOS Catering</h3>
-        <p class="footer__up--text1">
-          E-mail:
-        </p>
-        <p class="footer__up--text2">
-          biuro@eoscatering.pl
-        </p>
-
-        <p class="footer__up--text1">
-          Telefon:
-        </p>
-        <p class="footer__up--text2">
-          +48 513 961 825 / +48 518 949 175
-        </p>
-
-        <p class="footer__up--text1">
-          REGON:
-        </p>
-        <p class="footer__up--text2">
-          360549951
-        </p>
-
-        <p class="footer__up--text1">
-          NIP:
-        </p>
-        <p class="footer__up--text2">
-          8822102073
-        </p>
+  <?php
+  include ("footer.php")
+  ?>
 
 
-        <!--<img src="images/eoslogowhite.svg" alt="Eos Logo White" class="footer__logo" />-->
-      </section>
-      <section class="footer__down">
-        <h3 class="footer__down--heading">Odwiedź nas na:</h3>
-        <div class="social_media">
-          <a href="#" class="facebook"><img src="images/facebook.png" alt="facebook"></a>
-          <a href="#" class="twitter"><img src="images/twitter.png" alt="twitter"></a>
-        </div>
-        <hr class="footer__down--line">
-        <img src="images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" />
-        <hr class="footer__down--line">
-        <p class="footer__down--text1">
-          Copyright &copy; 2019
-          <p class="footer__down--text2">
-            EOS Catering
-          </p>
-        </p>
-      </section>
-
-    </div>
-  </footer>
 </body>

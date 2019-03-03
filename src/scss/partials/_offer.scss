@@ -66,6 +66,7 @@
   &__communion {
     background-image: url("../images/communion.png");
   }
+
   &__family {
     background-image: url("../images/family.png");
   }
@@ -101,7 +102,9 @@
   width: 272px;
   height: 87px;
   border-radius: 12px;
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .individual_offer {
@@ -110,6 +113,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  margin-bottom: 160px;
 
   &__heading {
     color: #343434;

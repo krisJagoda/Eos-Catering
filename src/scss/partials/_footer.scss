@@ -1,6 +1,16 @@
 .footer {
   background-color: $footer_backgroudcolor;
 
+  &__round {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 54px;
+    background-color: #030310;
+    width: 100%;
+    border-top: 5px solid #68c400;
+    margin-top: -25px;
+  }
+
   &__up {
     text-align: center;
     margin-bottom: 80px;

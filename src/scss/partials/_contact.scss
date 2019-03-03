@@ -1,14 +1,7 @@
 .contact {
-  background-color: #67c200;
+  background: #67c200 url("../images/vegetables.png");
   margin-top: -26px;
-
-  &__round {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    height: 54px;
-    background-color: #030310;
-    width: 100%;
-  }
+  padding-bottom: 26px;
 
   &__heading {
     margin-top: 176px;
