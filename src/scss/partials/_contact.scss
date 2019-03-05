@@ -84,7 +84,7 @@
       height: 68px;
       border-radius: 5px;
       border: 4px solid #fafafa;
-      color: #ffffff;
+      color: #fff;
       font-family: $fonts_primary;
       font-size: 20px;
       font-weight: 600;
@@ -92,4 +92,22 @@
       line-height: 28px;
     }
   }
+}
+
+.mail__sent,
+.mail_not_sent {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  &--text {
+    font-size: 20px;
+    font-family: $fonts_primary;
+    color: #343434;
+    text-align: center;
+  }
+}
+
+.header__round--notsent,
+.header__round--sent {
+  border-top: 5px solid #68c400;
 }

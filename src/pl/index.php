@@ -39,7 +39,7 @@
   </section>
 
   <?php
-  include ("contact.php")
+  include ("form/contact.php")
   ?>
   <?php
   include ("footer.php")

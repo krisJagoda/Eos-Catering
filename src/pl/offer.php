@@ -15,7 +15,7 @@
 
   <section class="business_offer">
     <h3 class="business_offer__heading">Oferta dla firm</h3>
-    <a href="" class="offer__element offer__coffee">
+    <a href="offer_info.php?current=business" class="offer__element offer__coffee">
       <div class="offer__inside">
         <div class="offers__text">
           Spotkania biznesowe,<br> przerwy kawowe
@@ -30,7 +30,7 @@
       </div>
     </a>
 
-    <a href="" class="offer__element offer__lunch">
+    <a href="offer_info.php?current=lunch" class="offer__element offer__lunch">
       <div class="offer__inside">
         <div class="offers__text ">
           Lunch, szkolenia
