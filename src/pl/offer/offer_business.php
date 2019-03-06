@@ -1,4 +1,4 @@
-<h2 class="offer_info__heading--main">Spotkania biznesowe,<br>
+<h2 class="offer_info__heading--main" id="one">Spotkania biznesowe,<br>
   przerwy kawowe
 </h2>
 

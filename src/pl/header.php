@@ -14,7 +14,7 @@
 
   </div>
 <div class="arrow">
-<img src="../images/arrow.png" alt="arrow" class="arrow">
+<a href="#one" class="arrow__item"><img src="../images/arrow.png" alt="arrow" class="arrow__img"></a>
 </div>
 
 </header>

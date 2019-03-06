@@ -4,7 +4,7 @@
   include ("header.php")
   ?>
 
-  <section class="hero">
+  <section class="hero" id="one">
     <div class="container">
       <div class="hero__flex">
 

@@ -26,7 +26,7 @@
 
   &__button {
     width: 340px;
-    color: #ffffff;
+    color: #fff;
     font-family: $fonts_primary;
     font-size: 20px;
     font-weight: 500;
@@ -40,8 +40,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -12px;
+  margin-top: -27px;
   z-index: 2;
   -webkit-animation: bounce 0.8s infinite alternate;
   animation: bounce 0.8s infinite alternate;
+
+  &__img {
+    cursor: pointer;
+  }
+
+  &__item {
+    display: block;
+  }
 }

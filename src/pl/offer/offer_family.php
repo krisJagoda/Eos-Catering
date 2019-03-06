@@ -1,4 +1,4 @@
-<h2 class="offer_info__heading--main">Spotkania rodzinne
+<h2 class="offer_info__heading--main" id="one">Spotkania rodzinne
 
 </h2>
 

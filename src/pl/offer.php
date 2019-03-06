@@ -5,7 +5,7 @@
   include ("header_offer.php")
   ?>
 
-  <section class="offer">
+  <section class="offer" id="one">
     <h2 class="offer__heading">EOS Catering</h2>
     <p class="offer__text">
       Oferujemy szeroki wachlarz usług cateringowych dostosowany do państwa potrzeb i oczekiwań. Do każdego klienta podchodzimy

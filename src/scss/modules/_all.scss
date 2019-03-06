@@ -167,11 +167,12 @@
   letter-spacing: 0.26px;
   text-align: center;
   padding: 20px 50px;
+  outline: none;
 }
 
 .button_green {
   background-color: $button_green_color;
-
+  outline: none;
   &:hover {
     background-color: $button_green_color_hover;
     transition: all 0.5s;
@@ -179,7 +180,7 @@
 }
 .button_blue {
   background-color: $button_blue_color;
-
+  outline: none;
   &:hover {
     background-color: $button_blue_color_hover;
     transition: all 0.5s;

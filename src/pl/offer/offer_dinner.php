@@ -1,4 +1,4 @@
-<h2 class="offer_info__heading--main">Obiady dla firm i odbiorców indywidualnych<br>
+<h2 class="offer_info__heading--main" id="one">Obiady dla firm i odbiorców indywidualnych<br>
 
 </h2>
 

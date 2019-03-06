@@ -1,4 +1,4 @@
-<h2 class="offer_info__heading--main">Kanapki, sałatki<br>
+<h2 class="offer_info__heading--main" id="one">Kanapki, sałatki<br>
   oraz finger food
 </h2>
 

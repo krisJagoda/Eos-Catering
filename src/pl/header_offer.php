@@ -9,8 +9,8 @@
   <div class="header__round">
 
   </div>
-<div class="arrow">
-<img src="../images/arrow.png" alt="arrow" class="arrow">
-</div>
+  <div class="arrow">
+  <a href="#one" class="arrow__item"><img src="../images/arrow.png" alt="arrow" class="arrow__img"></a>
+  </div>
 
 </header>
