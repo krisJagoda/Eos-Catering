@@ -12,11 +12,23 @@
         WRÓĆ DO INNYCH OFERT
       </a>
   <?php
-    if ($_GET['current']=== 'business') {
-      include ('offer/offer_business.php');
-    } else if ($_GET['current']=== 'lunch') {
+    $current = $_GET['current'];
 
+    if ($current === 'business') {
+      include ('offer/offer_business.php');
+    } else if ($current === 'canapes') {
+      include ('offer/offer_canapes.php');
+    } else if ($current === 'lunch') {
+      include ('offer/offer_lunch.php');
+    } else if ($current === 'dinner') {
+      include ('offer/offer_dinner.php');
+    } else if ($current === 'party') {
+      include ('offer/offer_party.php');
+    } else if ($current === 'family') {
+      include ('offer/offer_family.php');
     }
+
+
 
    ?>
 

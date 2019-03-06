@@ -22,7 +22,7 @@
         </div>
       </div>
     </a>
-    <a href="" class="offer__element offer__canapes">
+    <a href="offer_info.php?current=canapes" class="offer__element offer__canapes">
       <div class="offer__inside">
         <div class="offers__text">
           Kanapki, sałatki <br>oraz finger food
@@ -38,7 +38,7 @@
       </div>
     </a>
 
-    <a href="" class="offer__element offer__dinner">
+    <a href="offer_info.php?current=dinner" class="offer__element offer__dinner">
       <div class="offer__inside">
         <div class="offers__text">
           Obiady <br> abonamentowe
@@ -50,7 +50,7 @@
   <section class="individual_offer">
     <h3 class="individual_offer__heading">Oferta dla klientów <br> indywidualnych</h3>
 
-    <a href="" class="offer__element offer__communion">
+    <a href="offer_info.php?current=party" class="offer__element offer__communion">
       <div class="offer__inside">
         <div class="offers__text">
           Przyjęcia okolicznościowe <br> (wesela, komunie itp.)
@@ -58,7 +58,7 @@
       </div>
     </a>
 
-    <a href="" class="offer__element offer__family">
+    <a href="offer_info.php?current=family" class="offer__element offer__family">
       <div class="offer__inside">
         <div class="offers__text">
           Spotkania <br> rodzinne
