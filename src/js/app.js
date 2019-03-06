@@ -1,11 +1,14 @@
 $(function() {
-  $('.navTrigger').click(function() {
+  $('.hamburger__menu').click(function() {
     $(this).toggleClass('active');
+    $('.hamburger__nav').toggleClass('.hamburger__nav active');
+    $(this).toggleClass('closebtn');
   });
+
   //Smooth Scrolling Menu
   (function() {
 
-    var menu = $('.menu');
+    var menu = $('.arrow');
     var links = menu.find('a');
 
 

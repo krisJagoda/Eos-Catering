@@ -34,15 +34,64 @@
   margin-bottom: 80px;
 }
 
+.closebtn {
+  position: relative;
+  z-index: 2;
+}
+
 .hamburger__nav {
-  display: none;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+
+  &--menu {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  &.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: radial-gradient(1400px 700px at 50% 0%, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.89) 100%);
+    opacity: 0.9;
+    transition: all 0.5s;
+  }
+
+  &--menu {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  &--element {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-family: $fonts_primary;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.39px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+  }
 }
 
 .hamburger__menu {
   cursor: pointer;
   width: 35px;
-  margin-top: 40px;
-  margin-left: 22px;
+  padding-top: 44px;
+  margin-left: 37px;
   margin-bottom: 110px;
 
   &--item {
