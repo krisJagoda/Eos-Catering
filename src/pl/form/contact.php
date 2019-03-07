@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact" id="form">
   <div class="container">
 
     <h2 class="contact__heading">

@@ -4,6 +4,15 @@ $(function() {
     $('.hamburger__nav').toggleClass('.hamburger__nav active');
     $(this).toggleClass('closebtn');
   });
+
+
+  $('.hamburger__nav--element').click(function() {
+    $('.hamburger__menu').toggleClass('.hamburger__nav active');
+    $('.hamburger__nav').toggleClass('.hamburger__nav active');
+    $('.hamburger__menu').toggleClass('closebtn');
+    console.log("touched");
+  });
+
   $("a[href^='#']").click(function(e) {
     e.preventDefault();
 

@@ -5,7 +5,7 @@
   ?>
 
   <section class="hero" id="one">
-    <div class="container">
+    <div class="container" id="offer">
       <div class="hero__flex">
 
         <p class="hero__offer">Wybierz ofertę</p>
@@ -15,7 +15,7 @@
       </div>
     </div>
   </section>
-  <section class="about_us">
+  <section class="about_us" id="firm">
     <div class="container">
 
       <h2 class="about_us__heading">Kilka słów<br>o nas</h2>
