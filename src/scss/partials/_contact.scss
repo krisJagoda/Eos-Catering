@@ -2,6 +2,11 @@
   background: #67c200 url("../images/vegetables.png");
   margin-top: -26px;
   padding-bottom: 26px;
+  @media #{$tablet} {
+    -webkit-clip-path: ellipse(150% 60% at 50% 66%);
+    clip-path: ellipse(150% 60% at 50% 66%);
+    margin-top: 22px;
+  }
 
   &__heading {
     margin-top: 176px;
@@ -13,6 +18,13 @@
     line-height: 35px;
     text-align: center;
     margin-bottom: 33px;
+    @media #{$tablet} {
+      font-size: 50px;
+      font-weight: 500;
+      letter-spacing: 0.65px;
+      line-height: 60px;
+      margin-top: 228px;
+    }
   }
 
   &__text {
@@ -24,14 +36,20 @@
     text-align: center;
     font-weight: lighter;
     margin-bottom: 79px;
+
+    &--br {
+      @media #{$tablet} {
+        display: block;
+      }
+    }
   }
 
   &__form {
+    margin-bottom: 152px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 152px;
 
     &--input {
       display: block;
@@ -43,6 +61,10 @@
       margin-bottom: 20px;
       padding-left: 35px;
       font-size: 16px;
+      @media #{$tablet} {
+        width: 414px;
+        height: 68px;
+      }
 
       &::placeholder {
         opacity: 0.3;
@@ -56,8 +78,6 @@
     }
 
     &--textarea {
-      width: 340px;
-      height: 204px;
       border-radius: 5px;
       background-color: #fff;
       border: none;
@@ -66,6 +86,12 @@
       resize: none;
       font-size: 16px;
       margin-bottom: 20px;
+      max-width: 340px;
+      max-height: 204px;
+      @media #{$tablet} {
+        max-width: 848px;
+        height: 280px;
+      }
 
       &::placeholder {
         opacity: 0.3;
@@ -91,6 +117,7 @@
       letter-spacing: 0.36px;
       line-height: 28px;
       outline: none;
+
       &:hover {
         background-color: rgba(0, 0, 0, 0.5);
         transition: 0.5s;

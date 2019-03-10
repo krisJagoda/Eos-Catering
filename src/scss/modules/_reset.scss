@@ -199,7 +199,7 @@ a {
   color: blue;
   text-decoration: none;
 
-  &:link,&:hover {
+  &:link,&:hover, a:visited {
     text-decoration: none !important;
     color: #fff !important;
   }

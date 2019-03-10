@@ -1,12 +1,18 @@
 .hero {
   margin-top: 98px;
   margin-bottom: 121px;
+  @media #{$tablet} {
+    margin-top: 150px;
+  }
 
   &__flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media #{$tablet} {
+      flex-direction: row;
+    }
   }
 
   &__offer {
@@ -18,10 +24,20 @@
     line-height: 35px;
     text-align: center;
     font-weight: bold;
-  }
-
-  p:last-of-type {
     margin-bottom: 33px;
+    @media #{$tablet} {
+      margin-bottom: 38px;
+    }
+    @media #{$tablet} {
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    &--br {
+      @media #{$tablet} {
+        display: none;
+      }
+    }
   }
 
   &__button {
@@ -33,6 +49,14 @@
     letter-spacing: 0.36px;
     line-height: 28px;
     margin-bottom: 38px;
+    @media #{$tablet} {
+      text-align: center;
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 364px;
+      height: 80px;
+      line-height: 55px;
+    }
   }
 }
 
@@ -44,6 +68,9 @@
   z-index: 2;
   -webkit-animation: bounce 0.8s infinite alternate;
   animation: bounce 0.8s infinite alternate;
+  @media #{$tablet} {
+    margin-top: 0;
+  }
 
   &__img {
     cursor: pointer;

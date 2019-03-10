@@ -5,6 +5,9 @@
     <div class="header__logo">
       <img src="../images/headerlogo.svg" alt="eos catering logo" class="header__logo--element" />
     </div>
+    <h1 class="header__heading">Nie ma miłości szczerszej, <br>
+      niż miłość do jedzenia.
+    </h1>
   </div>
   <div class="header__round">
 

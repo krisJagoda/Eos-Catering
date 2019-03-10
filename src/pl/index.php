@@ -6,19 +6,24 @@
 
   <section class="hero" id="one">
     <div class="container" id="offer">
-      <div class="hero__flex">
 
-        <p class="hero__offer">Wybierz ofertę</p>
-        <p class="hero__offer"> dla siebie:</p>
+
+        <p class="hero__offer">Wybierz ofertę <br class="hero__offer--br">
+          dla siebie:
+        </p>
+      <div class="hero__flex">
         <a href="offer.php" class="button button_green hero__button">Klient indywidualny</a>
         <a href="offer.php" class="button button_blue hero__button">Mała, średnia i duża firma</a>
       </div>
     </div>
+    </div>
   </section>
   <section class="about_us" id="firm">
     <div class="container">
+      <div class="about_us__flex">
 
-      <h2 class="about_us__heading">Kilka słów<br>o nas</h2>
+
+      <h2 class="about_us__heading">Kilka słów<br class="about_us__heading--br"> o nas</h2>
       <p class="about_us__text">
         Eos Catering to rodzinna firma spod Wrocławia. Gotujemy domowo, smacznie,
         zaspokoimy każde podniebienie. Nasi kucharze posiadają 20-letnie doświadczenie w gastronomii.
@@ -32,6 +37,7 @@
         a Państwa oczekiwania w pełni zaspokojone.</p>
       </p>
       <p class="about_us__text">Prosimy się nie wahać i już dziś się z nami skontaktować!</p>
+    </div>
     </div>
     <div class="about_us__round"></div>
 

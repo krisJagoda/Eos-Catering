@@ -6,7 +6,7 @@
   <div class="container">
 
     <section class="footer__up">
-      <h3 class="footer__up--heading">EOS Catering</h3>
+      <h3 class="footer__up--heading"><a href="index.php" class="footer__up--item">EOS Catering</a></h3>
       <p class="footer__up--text1">
         E-mail:
       </p>
@@ -25,14 +25,21 @@
         REGON:
       </p>
       <p class="footer__up--text2">
-        360549951
+        366534672
       </p>
 
       <p class="footer__up--text1">
         NIP:
       </p>
       <p class="footer__up--text2">
-        8822102073
+        8822073756
+      </p>
+      <p class="footer__up--text1">
+        Adres:
+      </p>
+      <p class="footer__up--text2">
+        Brzoza 10 <br>
+        57-160 Borów
       </p>
 
 
