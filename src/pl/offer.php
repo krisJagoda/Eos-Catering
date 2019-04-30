@@ -13,7 +13,7 @@
     </p>
   </section>
 
-  <section class="business_offer">
+  <section class="business_offer" id="business">
     <h3 class="business_offer__heading">Oferta dla firm</h3>
     <a href="offer_info.php?current=business" class="offer__element offer__coffee">
       <div class="offer__inside">
@@ -47,7 +47,7 @@
     </a>
   </section>
 
-  <section class="individual_offer">
+  <section class="individual_offer" id="client">
     <h3 class="individual_offer__heading">Oferta dla klientów <br> indywidualnych</h3>
 
     <a href="offer_info.php?current=party" class="offer__element offer__communion">

@@ -1,6 +1,27 @@
 .footer {
   background-color: $footer_backgroudcolor;
 
+  &__part1 {
+    @media #{$tablet} {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__part2 {
+    @media #{$tablet} {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__part3 {
+    @media #{$tablet} {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
   &__round {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -9,6 +30,12 @@
     width: 100%;
     border-top: 5px solid #68c400;
     margin-top: -25px;
+    @media #{$tablet} {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-top: 0;
+      margin-top: -76px;
+    }
   }
 
   &__up {
@@ -25,6 +52,12 @@
       margin-top: 93px;
       margin-bottom: 38px;
       cursor: pointer;
+      @media #{$tablet} {
+        margin-top: 141px;
+        font-size: 40px;
+        letter-spacing: 0.52px;
+        margin-bottom: 17px;
+      }
 
       &:hover {
         opacity: 0.5;
@@ -40,15 +73,28 @@
       font-weight: 500;
       letter-spacing: 0.23px;
       line-height: 27px;
+      @media #{$tablet} {
+        font-size: 20px;
+        letter-spacing: 0.26px;
+        line-height: 32px;
+      }
     }
 
     &--text1 {
       color: #68c400;
+      padding-left: 5px;
+      @media #{$tablet} {
+        padding-right: 15px;
+        margin-left: 21px;
+      }
     }
 
     &--text2 {
       color: #fff;
       margin-bottom: 20px;
+      @media #{$tablet} {
+        margin-right: 33px;
+      }
 
       &:hover {
         text-decoration: underline;
@@ -78,6 +124,9 @@
       height: 0;
       width: 340px;
       margin-bottom: 38px;
+      @media #{$tablet} {
+        width: 845px;
+      }
     }
 
     &--text1,
@@ -97,6 +146,10 @@
       font-weight: 500;
       margin-bottom: 40px;
     }
+  }
+
+  &__br--tablet {
+    display: none;
   }
 }
 

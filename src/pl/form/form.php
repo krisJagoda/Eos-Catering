@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
   }
 
-  $to = 'kriswro@gmail.com';
+  $to = 'biuro@eoscatering.pl';
   $subject = "Nowa wiadomość z formularza na stronie! \n";
   $body = "Otrzymałeś nową wiadomość od $name.\n".
   		"Adres e-mail: $email \n".

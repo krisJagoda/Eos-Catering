@@ -7,6 +7,9 @@
 
     <section class="footer__up">
       <h3 class="footer__up--heading"><a href="index.php" class="footer__up--item">EOS Catering</a></h3>
+      <div class="footer__part1">
+
+
       <p class="footer__up--text1">
         E-mail:
       </p>
@@ -20,6 +23,8 @@
       <p class="footer__up--text2">
         +48 513 961 825 / +48 518 949 175
       </p>
+      </div>
+      <div class="footer__part2">
 
       <p class="footer__up--text1">
         REGON:
@@ -34,13 +39,19 @@
       <p class="footer__up--text2">
         8822073756
       </p>
+    </div>
+    <div class="footer__part3">
       <p class="footer__up--text1">
         Adres:
       </p>
-      <p class="footer__up--text2">
-        Brzoza 10 <br>
+
+
+
+      <p class="footer__up--text2 footer__last">
+        Brzoza 10 <br class="footer__br--tablet">
         57-160 Borów
       </p>
+      </div>
 
 
       <!--<img src="images/eoslogowhite.svg" alt="Eos Logo White" class="footer__logo" />-->

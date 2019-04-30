@@ -12,8 +12,8 @@
           dla siebie:
         </p>
       <div class="hero__flex">
-        <a href="offer.php" class="button button_green hero__button">Klient indywidualny</a>
-        <a href="offer.php" class="button button_blue hero__button">Mała, średnia i duża firma</a>
+        <a href="offer.php#client" class="button button_green hero__button">Klient indywidualny</a>
+        <a href="offer.php#business" class="button button_blue hero__button">Mała, średnia i duża firma</a>
       </div>
     </div>
     </div>
