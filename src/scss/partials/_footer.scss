@@ -36,6 +36,15 @@
       border-top: 0;
       margin-top: -76px;
     }
+
+    &--offer {
+      @media #{$tablet} {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-top: 5px solid #68c400;
+        margin-top: 0;
+      }
+    }
   }
 
   &__up {
@@ -74,7 +83,7 @@
       letter-spacing: 0.23px;
       line-height: 27px;
       @media #{$tablet} {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 0.26px;
         line-height: 32px;
       }

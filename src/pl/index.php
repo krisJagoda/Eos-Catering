@@ -46,6 +46,9 @@
   <?php
   include ("form/contact.php")
   ?>
+  <div class="footer__round">
+
+  </div>
   <?php
   include ("footer.php")
    ?>

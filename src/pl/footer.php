@@ -1,6 +1,3 @@
-<div class="footer__round">
-
-</div>
 <footer class="footer">
 
   <div class="container">

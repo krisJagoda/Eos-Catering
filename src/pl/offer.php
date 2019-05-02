@@ -61,13 +61,15 @@
     <a href="offer_info.php?current=family" class="offer__element offer__family">
       <div class="offer__inside">
         <div class="offers__text">
-          Spotkania <br> rodzinne
+          Spotkania rodzinne
         </div>
       </div>
     </a>
 
   </section>
+  <div class="footer__round footer__round--offer">
 
+  </div>
   <?php
   include ("footer.php")
   ?>

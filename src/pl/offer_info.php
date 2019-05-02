@@ -37,6 +37,9 @@
 
   </section>
 
+  <div class="footer__round footer__round--offer">
+
+  </div>
 
   <?php
   include ("footer.php")
