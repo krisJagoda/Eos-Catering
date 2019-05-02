@@ -1,7 +1,7 @@
 <?php include ("head.php") ?>
 
 
-<body>
+
   <?php
   include ("header_offer.php")
   ?>

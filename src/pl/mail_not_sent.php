@@ -1,6 +1,6 @@
 <?php include ('head.php') ?>
 
-<body>
+
 <header class="header">
   <?php include ('nav.php');
   ?>

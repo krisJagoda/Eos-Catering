@@ -1,6 +1,12 @@
+<?php include ('nav.php');
+?>
 <header class="header">
-  <?php include ('nav.php');
-  ?>
+  <div class="hamburger__menu navTrigger closebtn">
+    <span class="hamburger__menu--item"></span>
+    <span class="hamburger__menu--item"></span>
+    <span class="hamburger__menu--item"></span>
+  </div>
+
   <div class="container">
 
     <div class="header__logo">
