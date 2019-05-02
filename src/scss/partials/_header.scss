@@ -53,6 +53,9 @@
     &--element {
       width: 240px;
       height: 230px;
+      @media #{$desktop} {
+        display: none;
+      }
     }
   }
 
@@ -103,9 +106,7 @@
       margin-top: -10px;
     }
 
-    &--element {
-
-    }
+    &--element {}
   }
 
   .hamburger__menu {
@@ -119,6 +120,9 @@
       top: 187px;
       left: 90px;
       width: 38px;
+    }
+    @media #{$desktop} {
+      display: none;
     }
 
     &--item {
@@ -186,8 +190,7 @@
 .links {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 0 25%;
-  margin-top: 60px;
+  margin: 60px 0 0 25%;
   width: 50%;
 }
 
@@ -199,8 +202,7 @@
   position: relative;
   display: block;
   text-decoration: none;
-  padding: 14px;
-  padding-left: 0;
+  padding: 14px 14px 14px 0;
   text-align: center;
   color: #fff;
   font-family: $fonts_primary;
@@ -278,4 +280,84 @@ section.content {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+// navigation
+
+.nav {
+  display: none;
+  position: relative;
+  @media #{$desktop} {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+}
+
+.nav__left {
+  display: flex;
+  position: absolute;
+  left: 0;
+  margin-top: 80px;
+}
+
+.nav__right {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+}
+
+.nav__left,
+.nav__right {
+  &--link {
+    color: #fff;
+    font-family: $fonts_primary;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.26px;
+  }
+
+  &--link {
+    text-decoration: none;
+  }
+
+  &--contact {
+    width: 197px;
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px 30px;
+    font-family: $fonts_primary;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.26px;
+    align-self: center;
+  }
+}
+
+.nav__left {
+  &--link {
+    margin-right: 40px;
+  }
+}
+
+.nav__right {
+  &--link {
+    margin-left: 40px;
+  }
+}
+
+.main_logo {
+  display: block;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.main_nav--logo {
+  width: 166px;
+  height: 160px;
 }
