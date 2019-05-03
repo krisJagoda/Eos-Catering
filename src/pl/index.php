@@ -22,7 +22,6 @@
     <div class="container">
       <div class="about_us__flex">
 
-
       <h2 class="about_us__heading">Kilka słów<br class="about_us__heading--br"> o nas</h2>
       <p class="about_us__text">
         Eos Catering to rodzinna firma spod Wrocławia. Gotujemy domowo, smacznie,

@@ -1,6 +1,24 @@
 .footer {
   background-color: $footer_backgroudcolor;
 
+  &__desktop {
+    @media #{$desktop} {
+      width: 1400px;
+    }
+  }
+
+  &__logo {
+    display: none;
+    @media #{$desktop} {
+      display: block;
+      width: 166px;
+      height: 160px;
+    }
+  }
+  @media #{$desktop} {
+    margin-top: -150px;
+  }
+
   &__part1 {
     @media #{$tablet} {
       display: flex;
@@ -36,6 +54,9 @@
       border-top: 0;
       margin-top: -76px;
     }
+    @media #{$desktop} {
+      display: none;
+    }
 
     &--offer {
       @media #{$tablet} {
@@ -50,6 +71,12 @@
   &__up {
     text-align: center;
     margin-bottom: 80px;
+    @media #{$desktop} {
+      display: inline-block;
+      margin-top: 280px;
+      vertical-align: top;
+      margin-right: 222px;
+    }
 
     &--item {
       display: block;
@@ -66,6 +93,10 @@
         font-size: 40px;
         letter-spacing: 0.52px;
         margin-bottom: 17px;
+      }
+      @media #{$desktop} {
+        margin-top: 245px;
+        margin-top: 0;
       }
 
       &:hover {
@@ -117,6 +148,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media #{$desktop} {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 280px;
+    }
 
     &--heading {
       color: #fff;
@@ -204,4 +240,8 @@
   width: 134px;
   height: 84px;
   margin-bottom: 28px;
+  @media #{$desktop} {
+    width: 193px;
+    height: 121px;
+  }
 }

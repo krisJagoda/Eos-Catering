@@ -173,11 +173,18 @@
     letter-spacing: 0.21px;
     padding: 15px 65px;
   }
+  @media #{$desktop} {
+    font-size: 16px;
+    letter-spacing: 0.21px;
+  }
 }
 
 .button_green {
   background-color: $button_green_color;
   outline: none;
+  @media #{$desktop} {
+    padding: 20px 65px;
+  }
 
   &:hover {
     background-color: $button_green_color_hover;
