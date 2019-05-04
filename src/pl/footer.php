@@ -4,10 +4,10 @@
 
     <section class="footer__up">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <img src="../images/eoslogowhite.svg" alt="Eos Logo White" class="footer__logo" />
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <h3 class="footer__up--heading"><a href="index.php" class="footer__up--item">EOS Catering</a></h3>
         <div class="footer__part1">
 
@@ -26,7 +26,7 @@
         </p>
         </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="footer__part2">
 
           <p class="footer__up--text1">
@@ -45,45 +45,45 @@
         </div>
         </div>
       </div>
-<!--
-    <div class="footer__part3">
-      <p class="footer__up--text1">
-        Adres:
-      </p>
-
-      <p class="footer__up--text2 footer__last">
-        Brzoza 10 <br class="footer__br--tablet">
-        57-160 Borów
-      </p>
-      </div> -->
-
-
 
     </section>
     <section class="footer__down">
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h3 class="footer__down--heading">Odwiedź nas na:</h3>
             <div class="social_media">
               <a href="#" class="facebook"><img src="../images/facebook.png" alt="facebook"></a>
               <a href="#" class="twitter"><img src="../images/twitter.png" alt="twitter"></a>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" />
+          <div class="col-lg-6">
+            <img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo makowski__logo--lgscreen" />
           </div>
       </div>
+      <div class="copyright__part1">
 
-      <!-- <hr class="footer__down--line">
 
+      <hr class="footer__down--line">
+      <img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" />
       <hr class="footer__down--line">
       <p class="footer__down--text1">
         Copyright &copy; 2019
         <p class="footer__down--text2">
           EOS Catering
         </p>
-      </p> -->
+      </p>
+    </div>
     </section>
+    <div class="copyright__part2">
+      <hr class="footer__down--line">
+      <p class="footer__down--text1">
+        Copyright &copy; 2019
+      </p>
+        <p class="footer__down--text2">
+          EOS Catering
+        </p>
+        <hr class="footer__down--line">
+    </div>
 
   </div>
 </footer>
