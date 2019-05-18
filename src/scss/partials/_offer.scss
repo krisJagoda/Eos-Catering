@@ -22,7 +22,7 @@
   }
 
   &__text {
-    width: 340px;
+    max-width: 340px;
     color: #565757;
     font-family: $fonts_secondary;
     font-size: 18px;
@@ -34,6 +34,10 @@
       font-size: 20px;
       letter-spacing: 0.26px;
       width: 676px;
+    }
+    @media #{$desktop} {
+      max-width: 920px;
+      margin-bottom: 100px;
     }
   }
 
@@ -49,6 +53,11 @@
       height: 259px;
       margin-bottom: 60px;
     }
+    @media #{$desktop} {
+      width: 680px;
+      height: 260px;
+      margin: 40px;
+    }
   }
 
   &__inside {
@@ -62,6 +71,10 @@
     @media #{$tablet} {
       width: 658px;
       height: 240px;
+    }
+    @media #{$desktop} {
+      width: 662px;
+      height: 242px;
     }
   }
 
@@ -142,6 +155,14 @@
   align-items: center;
   flex-direction: column;
 
+  &__desktop {
+    display: flex;
+    flex-direction: column;
+    @media #{$desktop} {
+      flex-direction: row;
+    }
+  }
+
   &__heading {
     color: #343434;
     font-family: $fonts_secondary;
@@ -162,6 +183,14 @@
   padding-bottom: 65px;
   @media #{$tablet} {
     padding-bottom: 220px;
+  }
+
+  &__desktop {
+    display: flex;
+    flex-direction: column;
+    @media #{$desktop} {
+      flex-direction: row;
+    }
   }
 }
 
@@ -184,5 +213,13 @@
     letter-spacing: 0.34px;
     line-height: 36px;
     padding: 20px;
+  }
+  @media #{$desktop} {
+    width: 398px;
+    height: 106px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.34px;
+    line-height: 36px;
   }
 }

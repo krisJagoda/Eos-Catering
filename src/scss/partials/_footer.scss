@@ -78,6 +78,7 @@
       display: inline-block;
       margin-top: 280px;
       vertical-align: top;
+      margin-right: 160px;
     }
     @media #{$lgscreen} {
       margin-right: 147px;
@@ -300,7 +301,7 @@
 
   &--lgscreen {
     display: none;
-    @media #{$lgscreen} {
+    @media #{$desktop} {
       display: block;
     }
   }

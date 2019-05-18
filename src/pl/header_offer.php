@@ -8,6 +8,7 @@
   </div>
 
   <div class="container">
+    <?php include ('menu.php'); ?>
     <div class="header__logo">
       <img src="../images/headerlogo.svg" alt="eos catering logo" class="header__logo--element" />
     </div>

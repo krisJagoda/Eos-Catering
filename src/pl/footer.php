@@ -62,7 +62,6 @@
       </div>
       <div class="copyright__part1">
 
-
       <hr class="footer__down--line">
       <img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" />
       <hr class="footer__down--line">

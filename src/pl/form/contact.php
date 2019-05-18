@@ -1,8 +1,8 @@
-<section class="contact" id="form">
+<section class="contact">
 
   <div class="container">
 
-    <h2 class="contact__heading">
+    <h2 class="contact__heading" id="form">
       Skontaktuj się </br> z nami już teraz!
     </h2>
     <p class="contact__text">

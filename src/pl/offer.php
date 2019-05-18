@@ -15,22 +15,24 @@
 
   <section class="business_offer" id="business">
     <h3 class="business_offer__heading">Oferta dla firm</h3>
-    <a href="offer_info.php?current=business" class="offer__element offer__coffee">
-      <div class="offer__inside">
-        <div class="offers__text">
-          Spotkania biznesowe,<br> przerwy kawowe
+    <div class="business_offer__desktop">
+        <a href="offer_info.php?current=business" class="offer__element offer__coffee">
+        <div class="offer__inside">
+          <div class="offers__text">
+            Spotkania biznesowe,<br> przerwy kawowe
+          </div>
         </div>
-      </div>
-    </a>
-    <a href="offer_info.php?current=canapes" class="offer__element offer__canapes">
-      <div class="offer__inside">
-        <div class="offers__text">
-          Kanapki, sałatki <br>oraz finger food
+      </a>
+      <a href="offer_info.php?current=canapes" class="offer__element offer__canapes">
+        <div class="offer__inside">
+          <div class="offers__text">
+            Kanapki, sałatki <br>oraz finger food
+          </div>
         </div>
-      </div>
-    </a>
-
-    <a href="offer_info.php?current=lunch" class="offer__element offer__lunch">
+      </a>
+    </div>
+    <div class="business_offer__desktop">
+      <a href="offer_info.php?current=lunch" class="offer__element offer__lunch">
       <div class="offer__inside">
         <div class="offers__text ">
           Lunch, szkolenia
@@ -45,26 +47,30 @@
         </div>
       </div>
     </a>
+    </div>
   </section>
 
   <section class="individual_offer" id="client">
     <h3 class="individual_offer__heading">Oferta dla klientów <br> indywidualnych</h3>
 
-    <a href="offer_info.php?current=party" class="offer__element offer__communion">
-      <div class="offer__inside">
-        <div class="offers__text">
-          Przyjęcia okolicznościowe <br> (wesela, komunie itp.)
+    <div class="individual_offer__desktop">
+        <a href="offer_info.php?current=party" class="offer__element offer__communion">
+        <div class="offer__inside">
+          <div class="offers__text">
+            Przyjęcia okolicznościowe <br> (wesela, komunie itp.)
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <a href="offer_info.php?current=family" class="offer__element offer__family">
-      <div class="offer__inside">
-        <div class="offers__text">
-          Spotkania rodzinne
+      <a href="offer_info.php?current=family" class="offer__element offer__family">
+        <div class="offer__inside">
+          <div class="offers__text">
+            Spotkania rodzinne
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
+
 
   </section>
   <div class="footer__round footer__round--offer">
