@@ -235,7 +235,8 @@
   flex-direction: row;
 
   .facebook,
-  .twitter {
+  .twitter,
+  .instagram {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,11 +244,12 @@
     height: 52px;
     border-radius: 50%;
     vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .facebook {
     border: 3px solid #4144bc;
-    margin-right: 20px;
 
     &:hover {
       background-color: rgba(65, 68, 188, 0.3);
@@ -260,6 +262,16 @@
 
     &:hover {
       background-color: rgba(0, 153, 255, 0.3);
+      transition: background-color 0.5s;
+    }
+  }
+  .instagram {
+    border: 3px solid #8a3ab9;
+    img {
+      width: 30px;
+    }
+    &:hover {
+      background-color: rgba(188, 42, 141, 0.3);
       transition: background-color 0.5s;
     }
   }

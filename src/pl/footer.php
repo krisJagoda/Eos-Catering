@@ -59,6 +59,7 @@ $page = basename($_SERVER['PHP_SELF']);
             <div class="social_media">
               <a href="#" class="facebook"><img src="../images/facebook.png" alt="facebook"></a>
               <a href="#" class="twitter"><img src="../images/twitter.png" alt="twitter"></a>
+              <a href="#" class="instagram"><img src="../images/instagram.png" alt="twitter"></a>
             </div>
           </div>
           <div class="col-lg-6">
