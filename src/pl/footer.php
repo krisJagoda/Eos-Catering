@@ -1,4 +1,9 @@
-<footer class="footer">
+<?php
+
+$page = basename($_SERVER['PHP_SELF']);
+
+?>
+<footer class="footer" id="footer">
 
   <div class="container footer__desktop">
 

@@ -1,5 +1,8 @@
 .offer_info {
-  margin-bottom: 130px;
+  margin-bottom: 175px;
+  @media #{$tablet} {
+    margin-bottom: 200px;
+  }
 
   &__button {
     margin: 0 auto;
@@ -46,6 +49,12 @@
         letter-spacing: 0.65px;
         line-height: 60px;
       }
+
+      br {
+        @media #{$desktop} {
+          display: none;
+        }
+      }
     }
   }
 
@@ -63,6 +72,9 @@
       width: 676px;
       font-size: 20px;
       letter-spacing: 0.26px;
+    }
+    @media #{$desktop} {
+      width: 920px;
     }
   }
 

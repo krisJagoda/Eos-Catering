@@ -1,9 +1,21 @@
 .footer {
   background-color: $footer_backgroudcolor;
-
   &__desktop {
     @media #{$desktop} {
       width: 1400px;
+    }
+  }
+  &__large {
+    @media #{$desktop} {
+      width: 1400px;
+      margin-top: -200px;
+    }
+  }
+
+  &__large {
+    @media #{$desktop} {
+      width: 1400px;
+      margin-top: -200px;
     }
   }
 
@@ -14,9 +26,6 @@
       width: 166px;
       height: 160px;
     }
-  }
-  @media #{$desktop} {
-    margin-top: -150px;
   }
 
   &__part1 {
@@ -56,9 +65,6 @@
       border-top-right-radius: 0;
       border-top: 0;
       margin-top: -76px;
-    }
-    @media #{$desktop} {
-      display: none;
     }
 
     &--offer {

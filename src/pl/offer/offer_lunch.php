@@ -1,13 +1,9 @@
-<h2 class="offer_info__heading--main" id="one">Spotkania rodzinne
+<h2 class="offer_info__heading--main" id="one">Lunch, szkolenia
 
 </h2>
 
 <p class="offer_info__text">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Poniżej przedstawiamy przykładowy lunch na Państwa spotkanie. Zapraszamy do zapoznania się ze menu, oczywiście są inne opcje które chętnie przedstawimy.
 </p>
 <p class="offer_info__text">
   Prosimy zapoznać się z przykładowymi menu (ceny są netto, bez podatku VAT):
@@ -45,8 +41,24 @@
 
 </p>
 <h4 class="offer_info__heading">
-  <span class="offer_info__text1">LUNCH ( forma bufetu ) </span>
+  <span class="offer_info__text1">LUNCH</span>
   <span class="offer_info__text2">wariant 2</span>
+  <span class="offer_info__text3">35,00 zł/osobę </span>
+</h4>
+
+<p class="offer_info__text4">
+  Zupa krem z dyni 350 ml/os. <br>
+  Piersi z indyka faszerowana warzywami 150g/os. <br>
+  Polędwiczki wieprzowe z sosem pieczeniowym 150g/os. <br>
+  Ziemniaki z koperkiem 100g/os. <br>
+  Kasza pęczak 100g/os. <br>
+  Surówka z kiszonej kapusty z marchewka porem i jabłkiem 100g/os. <br>
+  Jabłecznik lub drożdżówka z truskawkami <br>
+
+</p>
+<h4 class="offer_info__heading">
+  <span class="offer_info__text1">LUNCH ( forma bufetu ) </span>
+  <span class="offer_info__text2">wariant 3</span>
   <span class="offer_info__text3">37,00 zł/osobę </span>
 </h4>
 

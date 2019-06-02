@@ -180,9 +180,12 @@
 }
 
 .individual_offer {
-  padding-bottom: 65px;
+  padding-bottom: 175px;
   @media #{$tablet} {
     padding-bottom: 220px;
+  }
+  @media #{$desktop} {
+    padding-bottom: 200px;
   }
 
   &__desktop {
