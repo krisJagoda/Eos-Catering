@@ -11,20 +11,39 @@
     flex-direction: column;
     margin-bottom: 100px;
   }
-  @media #{$tablet} {
+  @media all and (min-width: 937px) {
     background-image: url("../images/about_us_bg.jpg"), url("../images/about_us_bg.jpg");
     background-position: 140% center, -40% center;
     background-repeat: no-repeat, no-repeat;
     background-size: 402px 403px, 402px 403px;
   }
-  @media #{$desktop} {
+  @media all and (min-width: 1200px) {
     background-image: url("../images/about_us_bg.jpg"), url("../images/about_us_bg.jpg");
-    background-position: 128% 43%, -29% 43%;
+    background-position: 130% center, -30% center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 402px 403px, 402px 403px;
+  }
+  @media all and (min-width: 1275px){
+    background-image: url("../images/about_us_bg.jpg"), url("../images/about_us_bg.jpg");
+    background-position: 170% 43%, -70% 43%;
     background-repeat: no-repeat, no-repeat;
     background-size: 680px 674px, 680px 674px;
     padding-top: 250px;
   }
-
+  @media all and (min-width: 1365px){
+    background-image: url("../images/about_us_bg.jpg"), url("../images/about_us_bg.jpg");
+    background-position: 154% 43%, -55% 43%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 680px 674px, 680px 674px;
+    padding-top: 250px;
+  }
+  @media all and (min-width: 1610px){
+    background-image: url("../images/about_us_bg.jpg"), url("../images/about_us_bg.jpg");
+    background-position: 135% 43%, -35% 43%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 680px 674px, 680px 674px;
+    padding-top: 250px;
+  }
   &__heading {
     color: #343434;
     font-family: $fonts_secondary;
@@ -73,11 +92,11 @@
     @media #{$tablet} {
       font-size: 20px;
       letter-spacing: 0.26px;
-      width: 676px;
+      width: 700px;
       margin-bottom: 43px;
     }
     @media #{$desktop} {
-      width: 920px;
+      width: 700px;
       font-size: 20px;
       letter-spacing: 0.26px;
       margin-bottom: 40px;
