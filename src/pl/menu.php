@@ -10,6 +10,6 @@
     </div>
   <ul class="nav__right">
     <li class="nav__right--item"><a href="index.php#form" class="nav__right--link">Kontakt</a></li>
-    <li class="nav__right--item"><a href="#" class="nav__right--contact">+48 513 961 825</a></li>
+    <li class="nav__right--item"><a href="+48 513 961 825" class="nav__right--contact">+48 513 961 825</a></li>
   </ul>
 </nav>
