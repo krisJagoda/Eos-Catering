@@ -57,9 +57,9 @@ $page = basename($_SERVER['PHP_SELF']);
           <div class="col-lg-6">
             <h3 class="footer__down--heading">Odwiedź nas na:</h3>
             <div class="social_media">
-              <a href="#" class="facebook"><img src="../images/facebook.png" alt="facebook"></a>
-              <a href="#" class="twitter"><img src="../images/twitter.png" alt="twitter"></a>
-              <a href="#" class="instagram"><img src="../images/instagram.png" alt="twitter"></a>
+              <a href="https://www.facebook.com/EOS-Catering-374229759900225/" class="facebook"><img src="../images/facebook.png" alt="facebook"></a>
+              <a href="https://twitter.com/EOS_Catering" class="twitter"><img src="../images/twitter.png" alt="twitter"></a>
+              <a href="https://www.instagram.com/eoscatering/?hl=pl" class="instagram"><img src="../images/instagram.png" alt="twitter"></a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -69,7 +69,7 @@ $page = basename($_SERVER['PHP_SELF']);
       <div class="copyright__part1">
 
       <hr class="footer__down--line">
-      <a href="https://www.aleksmakowski.com/"><img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" /></a> 
+      <a href="https://www.aleksmakowski.com/"><img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" /></a>
       <hr class="footer__down--line">
       <p class="footer__down--text1">
         Copyright &copy; 2019
