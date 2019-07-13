@@ -226,3 +226,8 @@
     line-height: 36px;
   }
 }
+.footer__offer {
+  @media #{$desktop} {
+    margin-top: 100px;
+  }
+}

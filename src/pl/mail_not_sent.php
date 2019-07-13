@@ -1,18 +1,8 @@
 <?php include ('head.php') ?>
+<?php
+include ("header.php")
+?>
 
-
-<header class="header">
-  <?php include ('nav.php');
-  ?>
-  <div class="container">
-    <div class="header__logo">
-      <img src="../images/headerlogo.svg" alt="eos catering logo" class="header__logo--element" />
-    </div>
-  </div>
-    <div class="header__round header__round--notsent">
-
-    </div>
-</header>
 
   <div class="mail__sent">
     <h2 class="mail__sent--text">Przepraszamy.

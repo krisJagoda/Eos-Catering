@@ -15,15 +15,6 @@ $(function() {
     });
   });
 
-
-
-  // $('.hamburger__nav--element').click(function() {
-  //
-  //   $('.hamburger__menu').toggleClass('.hamburger__nav active');
-  //   $('.hamburger__nav').toggleClass('.hamburger__nav active');
-  //   $('.hamburger__menu').toggleClass('closebtn');
-  // });
-
   $("a[href^='#']").click(function(e) {
     e.preventDefault();
 
@@ -33,10 +24,5 @@ $(function() {
       scrollTop: position
     }, 'slow');
   });
-
-
-
-
-
 
 });

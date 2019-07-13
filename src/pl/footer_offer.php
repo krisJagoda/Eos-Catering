@@ -1,13 +1,8 @@
-<?php
-
-$page = basename($_SERVER['PHP_SELF']);
-
-?>
 <footer class="footer" id="footer">
 
   <div class="container footer__desktop">
 
-    <section class="footer__up">
+    <section class="footer__up footer__offer">
       <div class="row">
         <div class="col-lg-4">
           <img src="../images/eoslogowhite.svg" alt="Eos Logo White" class="footer__logo" />
@@ -52,7 +47,7 @@ $page = basename($_SERVER['PHP_SELF']);
       </div>
 
     </section>
-    <section class="footer__down">
+    <section class="footer__down footer__offer">
       <div class="row">
           <div class="col-lg-6">
             <h3 class="footer__down--heading">Odwiedź nas na:</h3>
@@ -69,7 +64,7 @@ $page = basename($_SERVER['PHP_SELF']);
       <div class="copyright__part1">
 
       <hr class="footer__down--line">
-      <a href="https://www.aleksmakowski.com/"><img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" /></a> 
+      <a href="https://www.aleksmakowski.com/"><img src="../images/DESIGN BY MAKOWSKI LOGO.svg" alt="Design by Makowski" class="makowski__logo" /></a>
       <hr class="footer__down--line">
       <p class="footer__down--text1">
         Copyright &copy; 2019

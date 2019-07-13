@@ -18,7 +18,7 @@
       niż miłość do jedzenia.
     </h1>
     <div class="seemenu">
-      <a href="#" class="button button_green">ZOBACZ MENU</a>
+      <a href="offer.php#offer" class="button button_green">ZOBACZ MENU</a>
     </div>
   </div>
   <div class="header__round">

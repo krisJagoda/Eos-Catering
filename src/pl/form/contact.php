@@ -9,7 +9,7 @@
       Jeżeli masz jakieś pytania, napisz do nas lub zadźwoń, <br class="contact__text--br">a pomożemy dopasować ofertę indywidualnie do Twoich potrzeb.
     </p>
 
-    <form class="contact__form" action="form/form.php" method="post">
+    <form class="contact__form" action="form/form.php" method="post" onsubmit="return checkform(this);">
 
       <fieldset class="fieldset">
           <div class="row">
@@ -59,6 +59,7 @@
           </div>
       </fieldset>
 
+      <div class="g-recaptcha" style="padding-bottom:20px" data-sitekey="6LcLA6kUAAAAAHrR6kRVFEW2l3cW2M2mhvp1BoYL" ></div>
       <input type="submit" name="submit" class="contact__form--button" value="Wyślij">
     </form>
 

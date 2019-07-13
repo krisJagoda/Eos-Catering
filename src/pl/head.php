@@ -8,5 +8,6 @@
   <meta name="keywords" content="EOS catering Wrocław">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="../css/main.css" rel="stylesheet">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body class="pushmenu-push">
