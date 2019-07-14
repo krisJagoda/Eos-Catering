@@ -1,2 +1,2 @@
 # Eos-Catering
-eoscatering.pl
+www.eoscatering.pl
